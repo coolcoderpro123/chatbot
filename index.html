@@ -1,48 +1,280 @@
-<!DOCTYPE html>
-<html>
-  <head>    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=3.0" name="viewport" />
 
-    <!-- section:seometa -->
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Discord" />
-    <meta property="og:title" content="Discord - A New Way to Chat with Friends & Communities" />
-    <meta
-      property="og:description"
-      content="Discord is the easiest way to communicate over voice, video, and text.  Chat, hang out, and stay close with your friends and communities." /><meta property="og:image" content="undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png" />    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@discord" />
-    <meta name="twitter:creator" content="@discord" />
-    <!-- endsection --><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">window.GLOBAL_ENV = {
-        API_ENDPOINT: '//discord.com/api',
-        API_VERSION: 9,
-        GATEWAY_ENDPOINT: 'wss://gateway.discord.gg',
-        WEBAPP_ENDPOINT: '//discord.com',
-        CDN_HOST: 'cdn.discordapp.com',
-        ASSET_ENDPOINT: '//discord.com',
-        MEDIA_PROXY_ENDPOINT: '//media.discordapp.net',
-        WIDGET_ENDPOINT: '//discord.com/widget',
-        INVITE_HOST: 'discord.gg',
-        GUILD_TEMPLATE_HOST: 'discord.new',
-        GIFT_CODE_HOST: 'discord.gift',
-        RELEASE_CHANNEL: 'stable',
-        MARKETING_ENDPOINT: '//discord.com',
-        BRAINTREE_KEY: 'production_ktzp8hfp_49pp2rp4phym7387',
-        STRIPE_KEY: 'pk_live_CUQtlpQUF0vufWpnpUmQvcdi',
-        NETWORKING_ENDPOINT: '//router.discordapp.net',
-        RTC_LATENCY_ENDPOINT: '//latency.discord.media/rtc',
-        ACTIVITY_APPLICATION_HOST: 'discordsays.com',
-        PROJECT_ENV: 'production',
-        REMOTE_AUTH_ENDPOINT: '//remote-auth-gateway.discord.gg',
-        SENTRY_TAGS: {"buildId":"6d3ed5919c61e7d7bfe75e834a6b0d0ccdec8c6b","buildType":"normal"},
-        MIGRATION_SOURCE_ORIGIN: 'https://discordapp.com',
-        MIGRATION_DESTINATION_ORIGIN: 'https://discord.com',
-        HTML_TIMESTAMP: Date.now(),
-        ALGOLIA_KEY: 'aca0d7082e4e63af5ba5917d5e96bed0',
-        PUBLIC_PATH: '/assets/'
-      };</script><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">!function(){if(null!=window.WebSocket){if(function(n){try{var e=localStorage.getItem(n);return null==e?null:JSON.parse(e)}catch(n){return null}}("token")&&!window.__OVERLAY__){var n=null!=window.DiscordNative||null!=window.require?"etf":"json",e=window.GLOBAL_ENV.GATEWAY_ENDPOINT+"/?encoding="+n+"&v="+window.GLOBAL_ENV.API_VERSION+"&compress=zlib-stream";console.log("[FAST CONNECT] connecting to: "+e);var o=new WebSocket(e);o.binaryType="arraybuffer";var t=Date.now(),i={open:!1,identify:!1,gateway:e,messages:[]};o.onopen=function(){console.log("[FAST CONNECT] connected in "+(Date.now()-t)+"ms"),i.open=!0},o.onclose=o.onerror=function(){window._ws=null},o.onmessage=function(n){i.messages.push(n)},window._ws={ws:o,state:i}}}}();</script><link rel="prefetch" as="script" href="/assets/bbe139ed1891a460bf83.js"></link><link rel="prefetch" as="script" href="/assets/5d8726d69bf89d6f65a4.js"></link><link rel="prefetch" as="script" href="/assets/2bca5148146ab09a0f77.js"></link><link rel="prefetch" as="script" href="/assets/d943c696a7d081165f2e.js"></link><link rel="prefetch" as="script" href="/assets/33aed1f9230e77ce76a5.js"></link><link rel="prefetch" as="script" href="/assets/b83a53e54d406c4856f2.js"></link><link rel="prefetch" as="script" href="/assets/3f42ab4fc41efa4c5a2a.js"></link><link rel="prefetch" as="script" href="/assets/33e935dbfee277fef452.js"></link><link rel="prefetch" as="script" href="/assets/a7d9d8772dafab425ba4.js"></link><link rel="prefetch" as="script" href="/assets/8732ffbaa4db766eaeda.js"></link><link rel="prefetch" as="script" href="/assets/2cd94a5981a6dbf35ed9.js"></link><link rel="prefetch" as="script" href="/assets/a9c397c29b893fa2b70d.js"></link><link rel="prefetch" as="script" href="/assets/cb31f80800d866181920.js"></link><link rel="prefetch" as="script" href="/assets/eaece1d82109161e4979.js"></link><link rel="prefetch" as="script" href="/assets/233cff2472d9dea72804.js"></link><link rel="prefetch" as="script" href="/assets/de7bd94f9acd5169f773.js"></link><link rel="prefetch" as="script" href="/assets/6093d4e40d4d5256ae7a.js"></link><link rel="prefetch" as="script" href="/assets/c4eac4da5e5331b7e2ce.js"></link><link rel="prefetch" as="script" href="/assets/c5c338ca0d285b902cdd.js"></link><link rel="prefetch" as="script" href="/assets/0830a90a4e5c45d3061b.js"></link><link rel="prefetch" as="script" href="/assets/114db811ba9078681206.js"></link><link rel="prefetch" as="script" href="/assets/55b53e25583c84dc08a1.js"></link><link rel="prefetch" as="script" href="/assets/ddd3132f5e8d8439d39c.js"></link><link rel="prefetch" as="script" href="/assets/41aadd2487985457ed15.js"></link><link rel="prefetch" as="script" href="/assets/b501d95a3ec8eb24b41a.js"></link><link rel="prefetch" as="script" href="/assets/7369349d7f33f9689d84.js"></link><link rel="prefetch" as="script" href="/assets/3c606c5a456a2996f65d.js"></link><link rel="prefetch" as="script" href="/assets/921162dfafbeca256757.js"></link><link rel="prefetch" as="script" href="/assets/8543b6ee07fea62111a7.js"></link><link rel="prefetch" as="script" href="/assets/38537d6eb73a3640b0cd.js"></link><link rel="prefetch" as="script" href="/assets/da65597cd40157f87ac0.js"></link><link rel="prefetch" as="script" href="/assets/85a8f8ae620b3594b1f8.js"></link><link rel="prefetch" as="script" href="/assets/36c5df8b28267f434585.js"></link><link rel="prefetch" as="script" href="/assets/0b898538a2e83bcadd96.js"></link><link rel="prefetch" as="script" href="/assets/309d284fac82bd2de15d.js"></link><link rel="prefetch" as="script" href="/assets/44d251df5ddd99903793.js"></link><link rel="prefetch" as="script" href="/assets/128764b56676b58277ed.js"></link><link rel="prefetch" as="script" href="/assets/a6776e204d6e1e849d19.js"></link><link rel="prefetch" as="script" href="/assets/43b81e8b1a50e8fa6e33.js"></link><link rel="prefetch" as="script" href="/assets/3296c6b5a714719bb274.js"></link><link rel="prefetch" as="script" href="/assets/3752b39beec091f2a106.js"></link><link rel="prefetch" as="script" href="/assets/5ac59308cf5383e165ca.js"></link><link rel="prefetch" as="script" href="/assets/8e54237f518ab7894c9e.js"></link><link rel="prefetch" as="script" href="/assets/38bdb2b94f8e8aab50a9.js"></link><link rel="prefetch" as="script" href="/assets/22fcaeaf9a3f802123bc.js"></link><link rel="prefetch" as="script" href="/assets/83c2e6178f3c9f603df0.js"></link><link rel="stylesheet" href="/assets/40532.0d65ff5848d256d2583d.css" integrity="sha256-gceIGMc5j+4fYCVTv9UIRZwvgPIVdtePEfuNQhoZAzE= sha512-JByl7RKXYgr6ODOq4w67dHZSQSbkXNE0o76WGQ0S3JmfZpBty5OGF8WULwwK01WxSKW/Zbp7JatKrZFoCXeu+A=="><link rel="icon" href="/assets/ec2c34cadd4b5f4594415127380a85e6.ico" />    <!-- section:title -->
-    <title>Discord</title>
-    <!-- endsection -->
-  </head>
-  <body>
-    <div id="app-mount"></div><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">window.__OVERLAY__ = /overlay/.test(location.pathname)</script><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">window.__BILLING_STANDALONE__ = /^\/billing/.test(location.pathname)</script><script src="/assets/2bf451c54fee5407ea0b.js" integrity="sha256-ng+qLQoTTk3fF56tlEWgFE7fxMxHxdSMljpmpR2DzRE= sha512-/kArPQdTf37wTyJBzZEMGffPByoBRsKP3BgYT/UYTriIRcQAWcNAHWQk7hc9NjQGu0RG1zxPFXHPB/QAH87kSA=="></script><script src="/assets/bbe139ed1891a460bf83.js" integrity="sha256-5HiCYV6ILTp1d+Nc3d51n9YLge0x1YK41xFpv8L7diE= sha512-XETFLRKhQXIk22T98E+LU3qyNwjkFJKzDAJuiVsFtgXmS8/5UdF9AY0+gJQfbNxB82NfqlHGpbO9pvQz4IYB1Q=="></script><script src="/assets/bcf53f8834513700186f.js" integrity="sha256-PeaeTd5vjknrxmVfvMKkn2AAFIdBo/zgYLVHofCb9uw= sha512-5NoqfXheyasUI93p5tzt6YVcK8TRPhKSfDQXXrMNGlTEiM3zPiFaAFZx5SazSAG/sSmdwSlfQ/RJA9QIkV246A=="></script><script src="/assets/595609aa4d614d7b4ab8.js" integrity="sha256-U+z8MFvJ4r+Rmwva+2vxvCsgLVZHY01cAoTlOsCgiBc= sha512-L2Hiqtey7kms+ZMl7SD2u9uBxYlAB0MsISMds4jt5UjBf1jc0+dEriFMwEj0bb69u044KOc1mHqYw8UeQngh0g=="></script>  <script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">(function(){var js = "window['__CF$cv$params']={r:'7a2f78debada6814',m:'.fckEFpr5SHXLX19CFwV.mohwinwXE_AEXMYkUdif7s-1677989037-0-AUa/k7/GaY8yt7f4/0CHRbKbse6ACexeCWrNFR814mgsVgg/kKoXOZOoy000tv2ks5k3+Lsl2TPKHe4oODeJIcDC9yz5HgQSoDsWeWSWvKCOFgz4trbfT5u4fqSajS8Okz9DQ/36lOB9EAUgjCRGpmz3RULdDawDi8d18GQzE5WB',s:[0xc5f6b916c9,0x9b7e0b0412],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = 'OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
-</html>
+<!DOCTYPE html><html><head><base href="/"><title>Tinkercad | From mind to design in minutes</title><link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touce-icon" href="/img/favicon.ico"><meta charset="utf-8"><meta http-equiv="Content-Type" content="text/html,charset=utf-8"><meta http-equiv="X-UA-Compatible" content="chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"><meta name="twitter:dnt" content="on"><meta name="google-site-verification" content="ggwscoHgFB3_aRLEQkfobIno_rxQ62bp-i4Oa-ZFDMQ"><meta property="og:title" content="Tinkercad | From mind to design in minutes"><meta name="description" content="Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding."><meta property="og:description" content="Tinkercad is a free, easy-to-use app for 3D design, electronics, and coding."><meta property="og:image" content="https://www.tinkercad.com/img/tinkercad-logo.png"><meta property="og:site_name" content="Tinkercad"><script src="https://editor.tinkercad.com/jquery-2.1.1.min.js"></script><link href="/font-awesome-4.3.0/css/font-awesome.min.css" rel="stylesheet"><script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script><link rel="manifest" href="/manifest.json"><script>if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function() {
+        navigator.serviceWorker.register('/sw.js').then(function(registration) {
+            console.log("Registered service worker with scope: ", registration.scope);
+        }, function(error) {
+            console.log("Service worker registration failed: ", error);
+        });
+    });
+}</script><script type="text/javascript" src="https://cfpmfe-prd.autodesk.com/cfp-core/current/cfp-core-vendors.js"></script><script type="text/javascript" src="https://cfpmfe-prd.autodesk.com/cfp-core/current/cfp-core.js"></script><script async type="text/javascript" src="https://api-reader.tinkercad.com/tealium/utag/utag.js"></script><script>window.googleGA = window.googleGA || function() {
+    var params = arguments;
+    setTimeout(function() {
+        window.googleGA.apply(null, params);
+    }, 1000);
+};
+window._gaq = {
+    push: function(data) {
+        if(data instanceof Array) {
+            data.unshift("event");
+            data.unshift("send");
+            googleGA.apply(googleGA, data);
+        }
+    }
+}
+
+window.__webpack_public_path__ = 'https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend/';
+window.__webpack_editor_public_path__ = 'https://editor.tinkercad.com/assets_v2_1cpu5uu';
+</script><script type="text/javascript" src="/js/webgl_utils.js"></script><script type="text/javascript" src="/js/webgl_check.js"></script><script>window.ldClientId = '5d407e1b44690006c0951bb7';</script><script type="text/javascript" src="https://editor.tinkercad.com/assets_v2_1cpu5uu/js/featureFlagsBundle.js"></script><script>const LOCALE_CODES = [{
+    locale: 'en',
+    codes: ['en', 'en-us'],
+    name: 'English'
+}, {
+    locale: 'cs',
+    codes: ['cs', 'cs-cz'],
+    name: 'Čeština'
+}, {
+    locale: 'de',
+    codes: ['de', 'de-at', 'de-ch', 'de-de', 'de-li', 'de-lu'],
+    name: 'Deutsch'
+}, {
+    locale: 'es',
+    codes: ['es', 'es-ar', 'es-bo', 'es-cl', 'es-co', 'es-cr',
+    'es-do', 'es-ec', 'es-es', 'es-gt', 'es-gt', 'es-hn', 'es-mx',
+    'es-ni', 'es-pa', 'es-pe', 'es-pr', 'es-us', 'es-uy', 'es-ve'],
+    name: 'Español'
+}, {
+    locale: 'fr',
+    codes: ['fr', 'fr-be', 'fr-ca', 'fr-ch', 'fr-fr', 'fr-lu', 'fr-mc', 'fr-nl'],
+    name: 'Français'
+}, {
+    locale: 'it',
+    codes: ['it', 'it-it', 'it-ch'],
+    name: 'Italiano'
+}, {
+    locale: 'hu',
+    codes: ['hu', 'hu-hu'],
+    name: 'Magyar'
+}, {
+    locale: 'nl',
+    codes: ['nl', 'nl-be', 'nl-nl'],
+    name: 'Nederlands'
+}, {
+    locale: 'pl',
+    codes: ['pl', 'pl-pl'],
+    name: 'Polski'
+}, {
+    locale: 'pt-BR',
+    codes: ['pt-br', 'pt-pt'],
+    name: 'Português'
+}, {
+    locale: 'ru',
+    codes: ['ru-mo', 'ru-ru'],
+    name: 'Русский'
+}, {
+    locale: 'tr',
+    codes: ['tr', 'tr-tr'],
+    name: 'Türkçe'
+}, {
+    locale: 'zh-Hans',
+    codes: ['zh-cn', 'zh-Hans'],
+    name: '中文 (简体)'
+}, {
+    locale: 'zh-Hant',
+    codes: ['zh-tw, zh-Hant'],
+    name: '中文 (繁体)'
+}, {
+    locale: 'ja',
+    codes: ['ja', 'ja-jp'],
+    name: '日本語'
+}, {
+    locale: 'ko',
+    codes: ['ko', 'ko-kr'],
+    name: '한국어'
+}];
+
+let localeCode = 'en';
+
+var cookies = document.cookie.split('; ');
+
+if (navigator && navigator.language) {
+    LOCALE_CODES.forEach(item => {
+        if (item.codes.includes(navigator.language.toLowerCase())) {
+            localeCode = item.locale;
+        }
+    });
+}
+
+for (var i = 0; i < cookies.length; i++) {
+    if (cookies[i].startsWith('locale_code=')) {
+        localeCode = cookies[i].substring(12);
+    }
+}
+
+window.LOCALE_CODE = localeCode;</script><style type="text/css">.notifications-wrapper {
+    display: none;
+}
+
+body.loaded .notifications-wrapper {
+    display: block;
+}
+
+#page-learn lesson,
+#page-learn project-gallery {
+    padding-top: 81px;
+}
+
+#page-learn.with-announce lesson,
+#page-learn.with-announce project-gallery {
+    padding-top: 81px;
+}
+
+.colorful-footer .footer-blocks .dropdown-menu {
+    transform: translateY(calc(-100% - 0px));
+}</style><script type="text/javascript" src="https://editor.tinkercad.com/assets_v2_1cpu5uu/js/vendorBundle.js"></script><script type="text/javascript" src="https://editor.tinkercad.com/assets_v2_1cpu5uu/js/3dviewerDependenciesBundle.js"></script><script type="text/javascript" src="https://editor.tinkercad.com/assets_v2_1cpu5uu/js/3dviewerBundle.js"></script><link href="/bootstrap-3.3.4/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link rel="stylesheet" href="https://editor.tinkercad.com/assets_v2_1cpu5uu/style/viewerBundle.css"><link rel="stylesheet" href="https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend/styles.css"></head><body><div id="main"><div style="min-height:380px"><script type="text/javascript" src="https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend/runtime.js"></script><script type="text/javascript" src="https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend/polyfills.js"></script><script type="text/javascript" src="https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend/vendor.js"></script><script type="text/javascript" src="https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend/main.js"></script><script type="text/javascript" src="https://editor.tinkercad.com/assets_v2_1cpu5uu/js/nativeBridgeBundle.js"></script><style class="preloader">/* Cube Grid styles */
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 2000;
+}
+.sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: #333;
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+    animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+}
+.sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    background-color: #ff2f00;
+}
+.sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    background-color: #ff7119;
+}
+.sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    background-color: #ff9600;
+}
+.sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    background-color: #00b850;
+}
+.sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    background-color: #7fcd00;
+}
+.sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    background-color: #d6d300;
+}
+.sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    background-color: #0066bc;
+}
+.sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+    background-color: #009cd1;
+}
+.sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+    animation-delay: 0.2s;
+    background-color: #4bbce1;
+}
+@-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+@keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+        -webkit-transform: scale3D(1, 1, 1);
+        transform: scale3D(1, 1, 1);
+    } 35% {
+        -webkit-transform: scale3D(0, 0, 1);
+        transform: scale3D(0, 0, 1);
+    }
+}
+div.splash {
+    background-color: #74bde6 ;
+    bottom: 0px ;
+    display: flex ;
+    left: 0px ;
+    position: fixed ;
+    right: 0px ;
+    top: 0px ;
+    z-index: 1000;
+}
+div.splash--loaded {
+    opacity: 0.0 ;
+    transition: opacity 100ms ease ;
+}
+div.splash__message {
+    font-size: 26px ;
+    line-height: 31px ;
+    margin: auto auto auto auto ;
+    text-decoration: underline ;
+}
+</style><div class="preloader splash"><div class="splash__message"><div class="sk-cube-grid"><div class="sk-cube sk-cube1"></div><div class="sk-cube sk-cube2"></div><div class="sk-cube sk-cube3"></div><div class="sk-cube sk-cube4"></div><div class="sk-cube sk-cube5"></div><div class="sk-cube sk-cube6"></div><div class="sk-cube sk-cube7"></div><div class="sk-cube sk-cube8"></div><div class="sk-cube sk-cube9"></div></div></div></div><script>(function listenForAppReadyEvent() {
+    // Gather DOM references.
+    var splash = document.querySelector( ".splash" );
+    var preloaders = document.querySelectorAll( ".preloader" );
+    // Listen for our "appready" message event.
+    window.addEventListener( "message", handleMessage, false );
+    // ----------------------------------------------------------------------- //
+    // ----------------------------------------------------------------------- //
+    // I handle "message" events on the current window.
+    function handleMessage( event ) {
+        if ( event.data === "appready" ) {
+        console.log( "AppReady event received!" );
+        window.removeEventListener( "message", handleMessage, false );
+        removeSplashScreen();
+        }
+        // NOTE ON SECURITY: According to the documentation on postMessage(), you
+        // should always test the Origin and [optionally] the Source attributes
+        // of the "message" event in order to make sure the event is coming from
+        // the expected place. However, for something as innocuous as the
+        // "splash page", I'm omitting such a security check. Since this handler
+        // does nothing but remove DOM elements from the static portion of the
+        // page, there's no security risk here that I can see. Such a test would
+        // add unnecessary complexity. That said, testing the origin is a best
+        // practice that should be done with anything that involves passing
+        // around sensitive data.
+    }
+    // I remove the splash screen and elements from the DOM, exposing the loaded
+    // application beneath them.
+    function removeSplashScreen() {
+        splash.classList.add( "splash--loaded" );
+        // Once the splash screen has been faded-out, let's rip all of the
+        // preloader-related DOM elements out of the document.
+        setTimeout(
+        function removeDomElements() {
+            for ( var i = 0 ; i < preloaders.length ; i++ ) {
+            var item = preloaders[ i ];
+            item.parentNode.removeChild( item );
+            }
+            document.body.classList.add('loaded');
+        },
+        200
+        );
+    }
+})();</script><app showHeaderAndFooter="true" announcementsEnabled="true" assetFolder="https://editor.tinkercad.com/assets_fe_25lcrbf/js/tinkercad-frontend" tinkercad_v2_endpoint="https://api-reader.tinkercad.com" tinkercad_v1_endpoint="https://v1.tinkercad.com" csg_endpoint="https://csg.tinkercad.com" o2_host="https://accounts.autodesk.com" o2_consumer_key="94263e8d-351b-4c7b-9b07-a582380dac91" autodesk_profile_host="https://profile.autodesk.com" recaptcha_site_key="6LdoFbEUAAAAAHzRmSSadntUVx2s-daq8ewPv1KS" instructables_jsonapi_endpoint="https://ibles-api.tinkercad.com/json-api" instructables_content="https://ibles-content.tinkercad.com" lesson_plan_endpoint="https://lesson-plan-backend.tnkrsvcs-p-ue1.tinkercad.com/v1/graphql" thingiverse_client_id="f0e0cd832ae1662d5536" forge_host="https://developer.api.autodesk.com" forge_client_id="xxZ3WC4v3pr8XWQuAYTjJ3vxrSJbGhj4" contentful_api_key="2S1whBR1jkdivB6wuqq6zAPqdah2wFzvTOgb2t3C1jw" contentful_host="cdn.contentful.com"></app></div></div></body></html>
