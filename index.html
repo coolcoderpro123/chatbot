@@ -1,93 +1,48 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-* {box-sizing: border-box;}
-ul {list-style-type: none;}
-body {font-family: Verdana, sans-serif;}
+  <head>    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=3.0" name="viewport" />
 
-.month {
-  padding: 70px 25px;
-  width: 100%;
-  background: #1abc9c;
-  text-align: center;
-}
-
-.month ul {
-  margin: 0;
-  padding: 0;
-}
-
-.month ul li {
-  color: white;
-  font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
-
-.month .prev {
-  float: left;
-  padding-top: 10px;
-}
-
-.month .next {
-  float: right;
-  padding-top: 10px;
-}
-
-.weekdays {
-  margin: 0;
-  padding: 10px 0;
-  background-color: #ddd;
-}
-
-.weekdays li {
-  display: inline-block;
-  width: 13.6%;
-  color: #666;
-  text-align: center;
-}
-
-.days {
-  padding: 10px 0;
-  background: #eee;
-  margin: 0;
-}
-
-.days li {
-  list-style-type: none;
-  display: inline-block;
-  width: 13.6%;
-  text-align: center;
-  margin-bottom: 5px;
-  font-size:12px;
-  color: #777;
-}
-
-.days li .active {
-  padding: 5px;
-  background: #1abc9c;
-  color: white !important
-}
-
-/* Add media queries for smaller screens */
-@media screen and (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
-}
-
-@media screen and (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
-}
-
-@media screen and (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
-}
-</style>
-</head>
-<body>
-
-<iframe width="725" height="453" src="https://www.tinkercad.com/embed/392g5XNXWMr?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
-</body>
+    <!-- section:seometa -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Discord" />
+    <meta property="og:title" content="Discord - A New Way to Chat with Friends & Communities" />
+    <meta
+      property="og:description"
+      content="Discord is the easiest way to communicate over voice, video, and text.  Chat, hang out, and stay close with your friends and communities." /><meta property="og:image" content="undefined//discord.com/assets/652f40427e1f5186ad54836074898279.png" />    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@discord" />
+    <meta name="twitter:creator" content="@discord" />
+    <!-- endsection --><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">window.GLOBAL_ENV = {
+        API_ENDPOINT: '//discord.com/api',
+        API_VERSION: 9,
+        GATEWAY_ENDPOINT: 'wss://gateway.discord.gg',
+        WEBAPP_ENDPOINT: '//discord.com',
+        CDN_HOST: 'cdn.discordapp.com',
+        ASSET_ENDPOINT: '//discord.com',
+        MEDIA_PROXY_ENDPOINT: '//media.discordapp.net',
+        WIDGET_ENDPOINT: '//discord.com/widget',
+        INVITE_HOST: 'discord.gg',
+        GUILD_TEMPLATE_HOST: 'discord.new',
+        GIFT_CODE_HOST: 'discord.gift',
+        RELEASE_CHANNEL: 'stable',
+        MARKETING_ENDPOINT: '//discord.com',
+        BRAINTREE_KEY: 'production_ktzp8hfp_49pp2rp4phym7387',
+        STRIPE_KEY: 'pk_live_CUQtlpQUF0vufWpnpUmQvcdi',
+        NETWORKING_ENDPOINT: '//router.discordapp.net',
+        RTC_LATENCY_ENDPOINT: '//latency.discord.media/rtc',
+        ACTIVITY_APPLICATION_HOST: 'discordsays.com',
+        PROJECT_ENV: 'production',
+        REMOTE_AUTH_ENDPOINT: '//remote-auth-gateway.discord.gg',
+        SENTRY_TAGS: {"buildId":"6d3ed5919c61e7d7bfe75e834a6b0d0ccdec8c6b","buildType":"normal"},
+        MIGRATION_SOURCE_ORIGIN: 'https://discordapp.com',
+        MIGRATION_DESTINATION_ORIGIN: 'https://discord.com',
+        HTML_TIMESTAMP: Date.now(),
+        ALGOLIA_KEY: 'aca0d7082e4e63af5ba5917d5e96bed0',
+        PUBLIC_PATH: '/assets/'
+      };</script><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">!function(){if(null!=window.WebSocket){if(function(n){try{var e=localStorage.getItem(n);return null==e?null:JSON.parse(e)}catch(n){return null}}("token")&&!window.__OVERLAY__){var n=null!=window.DiscordNative||null!=window.require?"etf":"json",e=window.GLOBAL_ENV.GATEWAY_ENDPOINT+"/?encoding="+n+"&v="+window.GLOBAL_ENV.API_VERSION+"&compress=zlib-stream";console.log("[FAST CONNECT] connecting to: "+e);var o=new WebSocket(e);o.binaryType="arraybuffer";var t=Date.now(),i={open:!1,identify:!1,gateway:e,messages:[]};o.onopen=function(){console.log("[FAST CONNECT] connected in "+(Date.now()-t)+"ms"),i.open=!0},o.onclose=o.onerror=function(){window._ws=null},o.onmessage=function(n){i.messages.push(n)},window._ws={ws:o,state:i}}}}();</script><link rel="prefetch" as="script" href="/assets/bbe139ed1891a460bf83.js"></link><link rel="prefetch" as="script" href="/assets/5d8726d69bf89d6f65a4.js"></link><link rel="prefetch" as="script" href="/assets/2bca5148146ab09a0f77.js"></link><link rel="prefetch" as="script" href="/assets/d943c696a7d081165f2e.js"></link><link rel="prefetch" as="script" href="/assets/33aed1f9230e77ce76a5.js"></link><link rel="prefetch" as="script" href="/assets/b83a53e54d406c4856f2.js"></link><link rel="prefetch" as="script" href="/assets/3f42ab4fc41efa4c5a2a.js"></link><link rel="prefetch" as="script" href="/assets/33e935dbfee277fef452.js"></link><link rel="prefetch" as="script" href="/assets/a7d9d8772dafab425ba4.js"></link><link rel="prefetch" as="script" href="/assets/8732ffbaa4db766eaeda.js"></link><link rel="prefetch" as="script" href="/assets/2cd94a5981a6dbf35ed9.js"></link><link rel="prefetch" as="script" href="/assets/a9c397c29b893fa2b70d.js"></link><link rel="prefetch" as="script" href="/assets/cb31f80800d866181920.js"></link><link rel="prefetch" as="script" href="/assets/eaece1d82109161e4979.js"></link><link rel="prefetch" as="script" href="/assets/233cff2472d9dea72804.js"></link><link rel="prefetch" as="script" href="/assets/de7bd94f9acd5169f773.js"></link><link rel="prefetch" as="script" href="/assets/6093d4e40d4d5256ae7a.js"></link><link rel="prefetch" as="script" href="/assets/c4eac4da5e5331b7e2ce.js"></link><link rel="prefetch" as="script" href="/assets/c5c338ca0d285b902cdd.js"></link><link rel="prefetch" as="script" href="/assets/0830a90a4e5c45d3061b.js"></link><link rel="prefetch" as="script" href="/assets/114db811ba9078681206.js"></link><link rel="prefetch" as="script" href="/assets/55b53e25583c84dc08a1.js"></link><link rel="prefetch" as="script" href="/assets/ddd3132f5e8d8439d39c.js"></link><link rel="prefetch" as="script" href="/assets/41aadd2487985457ed15.js"></link><link rel="prefetch" as="script" href="/assets/b501d95a3ec8eb24b41a.js"></link><link rel="prefetch" as="script" href="/assets/7369349d7f33f9689d84.js"></link><link rel="prefetch" as="script" href="/assets/3c606c5a456a2996f65d.js"></link><link rel="prefetch" as="script" href="/assets/921162dfafbeca256757.js"></link><link rel="prefetch" as="script" href="/assets/8543b6ee07fea62111a7.js"></link><link rel="prefetch" as="script" href="/assets/38537d6eb73a3640b0cd.js"></link><link rel="prefetch" as="script" href="/assets/da65597cd40157f87ac0.js"></link><link rel="prefetch" as="script" href="/assets/85a8f8ae620b3594b1f8.js"></link><link rel="prefetch" as="script" href="/assets/36c5df8b28267f434585.js"></link><link rel="prefetch" as="script" href="/assets/0b898538a2e83bcadd96.js"></link><link rel="prefetch" as="script" href="/assets/309d284fac82bd2de15d.js"></link><link rel="prefetch" as="script" href="/assets/44d251df5ddd99903793.js"></link><link rel="prefetch" as="script" href="/assets/128764b56676b58277ed.js"></link><link rel="prefetch" as="script" href="/assets/a6776e204d6e1e849d19.js"></link><link rel="prefetch" as="script" href="/assets/43b81e8b1a50e8fa6e33.js"></link><link rel="prefetch" as="script" href="/assets/3296c6b5a714719bb274.js"></link><link rel="prefetch" as="script" href="/assets/3752b39beec091f2a106.js"></link><link rel="prefetch" as="script" href="/assets/5ac59308cf5383e165ca.js"></link><link rel="prefetch" as="script" href="/assets/8e54237f518ab7894c9e.js"></link><link rel="prefetch" as="script" href="/assets/38bdb2b94f8e8aab50a9.js"></link><link rel="prefetch" as="script" href="/assets/22fcaeaf9a3f802123bc.js"></link><link rel="prefetch" as="script" href="/assets/83c2e6178f3c9f603df0.js"></link><link rel="stylesheet" href="/assets/40532.0d65ff5848d256d2583d.css" integrity="sha256-gceIGMc5j+4fYCVTv9UIRZwvgPIVdtePEfuNQhoZAzE= sha512-JByl7RKXYgr6ODOq4w67dHZSQSbkXNE0o76WGQ0S3JmfZpBty5OGF8WULwwK01WxSKW/Zbp7JatKrZFoCXeu+A=="><link rel="icon" href="/assets/ec2c34cadd4b5f4594415127380a85e6.ico" />    <!-- section:title -->
+    <title>Discord</title>
+    <!-- endsection -->
+  </head>
+  <body>
+    <div id="app-mount"></div><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">window.__OVERLAY__ = /overlay/.test(location.pathname)</script><script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">window.__BILLING_STANDALONE__ = /^\/billing/.test(location.pathname)</script><script src="/assets/2bf451c54fee5407ea0b.js" integrity="sha256-ng+qLQoTTk3fF56tlEWgFE7fxMxHxdSMljpmpR2DzRE= sha512-/kArPQdTf37wTyJBzZEMGffPByoBRsKP3BgYT/UYTriIRcQAWcNAHWQk7hc9NjQGu0RG1zxPFXHPB/QAH87kSA=="></script><script src="/assets/bbe139ed1891a460bf83.js" integrity="sha256-5HiCYV6ILTp1d+Nc3d51n9YLge0x1YK41xFpv8L7diE= sha512-XETFLRKhQXIk22T98E+LU3qyNwjkFJKzDAJuiVsFtgXmS8/5UdF9AY0+gJQfbNxB82NfqlHGpbO9pvQz4IYB1Q=="></script><script src="/assets/bcf53f8834513700186f.js" integrity="sha256-PeaeTd5vjknrxmVfvMKkn2AAFIdBo/zgYLVHofCb9uw= sha512-5NoqfXheyasUI93p5tzt6YVcK8TRPhKSfDQXXrMNGlTEiM3zPiFaAFZx5SazSAG/sSmdwSlfQ/RJA9QIkV246A=="></script><script src="/assets/595609aa4d614d7b4ab8.js" integrity="sha256-U+z8MFvJ4r+Rmwva+2vxvCsgLVZHY01cAoTlOsCgiBc= sha512-L2Hiqtey7kms+ZMl7SD2u9uBxYlAB0MsISMds4jt5UjBf1jc0+dEriFMwEj0bb69u044KOc1mHqYw8UeQngh0g=="></script>  <script nonce="OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==">(function(){var js = "window['__CF$cv$params']={r:'7a2f78debada6814',m:'.fckEFpr5SHXLX19CFwV.mohwinwXE_AEXMYkUdif7s-1677989037-0-AUa/k7/GaY8yt7f4/0CHRbKbse6ACexeCWrNFR814mgsVgg/kKoXOZOoy000tv2ks5k3+Lsl2TPKHe4oODeJIcDC9yz5HgQSoDsWeWSWvKCOFgz4trbfT5u4fqSajS8Okz9DQ/36lOB9EAUgjCRGpmz3RULdDawDi8d18GQzE5WB',s:[0xc5f6b916c9,0x9b7e0b0412],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = 'OTMsNjUsMTM3LDI0NiwxMSwxNDgsMTA0LDIyMg==';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script></body>
 </html>
-
